@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8429CE98215EBE0400FC6959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CE97215EBE0400FC6959 /* AppDelegate.swift */; };
+		8429CE9A215EBE0400FC6959 /* ColorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CE99215EBE0400FC6959 /* ColorTableViewController.swift */; };
+		8429CE9D215EBE0400FC6959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429CE9B215EBE0400FC6959 /* Main.storyboard */; };
+		8429CE9F215EBE0A00FC6959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429CE9E215EBE0A00FC6959 /* Assets.xcassets */; };
+		8429CEA2215EBE0A00FC6959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429CEA0215EBE0A00FC6959 /* LaunchScreen.storyboard */; };
+		8429CEAD215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEAC215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift */; };
+		8429CEB8215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEB7215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift */; };
+		8429CEC8215EC78800FC6959 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8429CEA9215EBE0B00FC6959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8429CE8C215EBE0400FC6959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8429CE93215EBE0400FC6959;
+			remoteInfo = iOSDevColorTableView;
+		};
+		8429CEB4215EBE0B00FC6959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8429CE8C215EBE0400FC6959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8429CE93215EBE0400FC6959;
+			remoteInfo = iOSDevColorTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8429CE94215EBE0400FC6959 /* iOSDevColorTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevColorTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429CE97215EBE0400FC6959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8429CE99215EBE0400FC6959 /* ColorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewController.swift; sourceTree = "<group>"; };
+		8429CE9C215EBE0400FC6959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8429CE9E215EBE0A00FC6959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8429CEA1215EBE0A00FC6959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8429CEA3215EBE0A00FC6959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429CEA8215EBE0B00FC6959 /* iOSDevColorTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevColorTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429CEAC215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevColorTableViewTests.swift; sourceTree = "<group>"; };
+		8429CEAE215EBE0B00FC6959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429CEB3215EBE0B00FC6959 /* iOSDevColorTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevColorTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429CEB7215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevColorTableViewUITests.swift; sourceTree = "<group>"; };
+		8429CEB9215EBE0B00FC6959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8429CE91215EBE0400FC6959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEA5215EBE0B00FC6959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEB0215EBE0B00FC6959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8429CE8B215EBE0400FC6959 = {
+			isa = PBXGroup;
+			children = (
+				8429CE96215EBE0400FC6959 /* iOSDevColorTableView */,
+				8429CEAB215EBE0B00FC6959 /* iOSDevColorTableViewTests */,
+				8429CEB6215EBE0B00FC6959 /* iOSDevColorTableViewUITests */,
+				8429CE95215EBE0400FC6959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8429CE95215EBE0400FC6959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8429CE94215EBE0400FC6959 /* iOSDevColorTableView.app */,
+				8429CEA8215EBE0B00FC6959 /* iOSDevColorTableViewTests.xctest */,
+				8429CEB3215EBE0B00FC6959 /* iOSDevColorTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8429CE96215EBE0400FC6959 /* iOSDevColorTableView */ = {
+			isa = PBXGroup;
+			children = (
+				8429CE97215EBE0400FC6959 /* AppDelegate.swift */,
+				8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */,
+				8429CE99215EBE0400FC6959 /* ColorTableViewController.swift */,
+				8429CE9B215EBE0400FC6959 /* Main.storyboard */,
+				8429CE9E215EBE0A00FC6959 /* Assets.xcassets */,
+				8429CEA0215EBE0A00FC6959 /* LaunchScreen.storyboard */,
+				8429CEA3215EBE0A00FC6959 /* Info.plist */,
+			);
+			path = iOSDevColorTableView;
+			sourceTree = "<group>";
+		};
+		8429CEAB215EBE0B00FC6959 /* iOSDevColorTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8429CEAC215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift */,
+				8429CEAE215EBE0B00FC6959 /* Info.plist */,
+			);
+			path = iOSDevColorTableViewTests;
+			sourceTree = "<group>";
+		};
+		8429CEB6215EBE0B00FC6959 /* iOSDevColorTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8429CEB7215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift */,
+				8429CEB9215EBE0B00FC6959 /* Info.plist */,
+			);
+			path = iOSDevColorTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8429CE93215EBE0400FC6959 /* iOSDevColorTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429CEBC215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableView" */;
+			buildPhases = (
+				8429CE90215EBE0400FC6959 /* Sources */,
+				8429CE91215EBE0400FC6959 /* Frameworks */,
+				8429CE92215EBE0400FC6959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDevColorTableView;
+			productName = iOSDevColorTableView;
+			productReference = 8429CE94215EBE0400FC6959 /* iOSDevColorTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8429CEA7215EBE0B00FC6959 /* iOSDevColorTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429CEBF215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableViewTests" */;
+			buildPhases = (
+				8429CEA4215EBE0B00FC6959 /* Sources */,
+				8429CEA5215EBE0B00FC6959 /* Frameworks */,
+				8429CEA6215EBE0B00FC6959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8429CEAA215EBE0B00FC6959 /* PBXTargetDependency */,
+			);
+			name = iOSDevColorTableViewTests;
+			productName = iOSDevColorTableViewTests;
+			productReference = 8429CEA8215EBE0B00FC6959 /* iOSDevColorTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8429CEB2215EBE0B00FC6959 /* iOSDevColorTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429CEC2215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableViewUITests" */;
+			buildPhases = (
+				8429CEAF215EBE0B00FC6959 /* Sources */,
+				8429CEB0215EBE0B00FC6959 /* Frameworks */,
+				8429CEB1215EBE0B00FC6959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8429CEB5215EBE0B00FC6959 /* PBXTargetDependency */,
+			);
+			name = iOSDevColorTableViewUITests;
+			productName = iOSDevColorTableViewUITests;
+			productReference = 8429CEB3215EBE0B00FC6959 /* iOSDevColorTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8429CE8C215EBE0400FC6959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Ben;
+				TargetAttributes = {
+					8429CE93215EBE0400FC6959 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					8429CEA7215EBE0B00FC6959 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8429CE93215EBE0400FC6959;
+					};
+					8429CEB2215EBE0B00FC6959 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 8429CE93215EBE0400FC6959;
+					};
+				};
+			};
+			buildConfigurationList = 8429CE8F215EBE0400FC6959 /* Build configuration list for PBXProject "iOSDevColorTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8429CE8B215EBE0400FC6959;
+			productRefGroup = 8429CE95215EBE0400FC6959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8429CE93215EBE0400FC6959 /* iOSDevColorTableView */,
+				8429CEA7215EBE0B00FC6959 /* iOSDevColorTableViewTests */,
+				8429CEB2215EBE0B00FC6959 /* iOSDevColorTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8429CE92215EBE0400FC6959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429CEA2215EBE0A00FC6959 /* LaunchScreen.storyboard in Resources */,
+				8429CE9F215EBE0A00FC6959 /* Assets.xcassets in Resources */,
+				8429CE9D215EBE0400FC6959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEA6215EBE0B00FC6959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEB1215EBE0B00FC6959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8429CE90215EBE0400FC6959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429CE9A215EBE0400FC6959 /* ColorTableViewController.swift in Sources */,
+				8429CE98215EBE0400FC6959 /* AppDelegate.swift in Sources */,
+				8429CEC8215EC78800FC6959 /* ColorTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEA4215EBE0B00FC6959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429CEAD215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429CEAF215EBE0B00FC6959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429CEB8215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8429CEAA215EBE0B00FC6959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8429CE93215EBE0400FC6959 /* iOSDevColorTableView */;
+			targetProxy = 8429CEA9215EBE0B00FC6959 /* PBXContainerItemProxy */;
+		};
+		8429CEB5215EBE0B00FC6959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8429CE93215EBE0400FC6959 /* iOSDevColorTableView */;
+			targetProxy = 8429CEB4215EBE0B00FC6959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8429CE9B215EBE0400FC6959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8429CE9C215EBE0400FC6959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8429CEA0215EBE0A00FC6959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8429CEA1215EBE0A00FC6959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8429CEBA215EBE0B00FC6959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8429CEBB215EBE0B00FC6959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8429CEBD215EBE0B00FC6959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8429CEBE215EBE0B00FC6959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8429CEC0215EBE0B00FC6959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDevColorTableView.app/iOSDevColorTableView";
+			};
+			name = Debug;
+		};
+		8429CEC1215EBE0B00FC6959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSDevColorTableView.app/iOSDevColorTableView";
+			};
+			name = Release;
+		};
+		8429CEC3215EBE0B00FC6959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDevColorTableView;
+			};
+			name = Debug;
+		};
+		8429CEC4215EBE0B00FC6959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSDevColorTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Myself-bitch.iOSDevColorTableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iOSDevColorTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8429CE8F215EBE0400FC6959 /* Build configuration list for PBXProject "iOSDevColorTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429CEBA215EBE0B00FC6959 /* Debug */,
+				8429CEBB215EBE0B00FC6959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429CEBC215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429CEBD215EBE0B00FC6959 /* Debug */,
+				8429CEBE215EBE0B00FC6959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429CEBF215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429CEC0215EBE0B00FC6959 /* Debug */,
+				8429CEC1215EBE0B00FC6959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429CEC2215EBE0B00FC6959 /* Build configuration list for PBXNativeTarget "iOSDevColorTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429CEC3215EBE0B00FC6959 /* Debug */,
+				8429CEC4215EBE0B00FC6959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8429CE8C215EBE0400FC6959 /* Project object */;
+}
