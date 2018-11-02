@@ -10,28 +10,31 @@ import UIKit
 
 class ColorDetailViewController: UIViewController {
     
-    var color: ColorStruct?
-    @IBOutlet weak var colorLabel: UILabel!
+    
+    var datas: [DataStruct]?
+    var myIndex: Int?
+    
+    @IBOutlet weak var colorLabel: UITextField!
+    @IBOutlet weak var dataBody: UITextView!
+    @IBOutlet weak var saveButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        colorLabel.text = color?.name
-        self.view.backgroundColor = color?.UIColor
-        self.title = color?.name
+        colorLabel.text = datas?[myIndex!].title
+        self.dataBody.text = datas?[myIndex!].body
         
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let destination = segue.destination as? ColorTableViewController {
+            
+            datas?[myIndex!].title = colorLabel.text ?? ""
+            datas?[myIndex!].body = dataBody.text ?? ""
+            
+            destination.datas = datas!
+        }
     }
-    */
 
 }

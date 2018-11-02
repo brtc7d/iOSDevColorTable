@@ -15,6 +15,7 @@
 		8429CEAD215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEAC215EBE0B00FC6959 /* iOSDevColorTableViewTests.swift */; };
 		8429CEB8215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEB7215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift */; };
 		8429CEC8215EC78800FC6959 /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */; };
+		8432AADF218D16AD003EF7D6 /* iOSDevColorTableView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8432AADD218D16AD003EF7D6 /* iOSDevColorTableView.xcdatamodeld */; };
 		84586B64217A86A400A41E94 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84586B63217A86A400A41E94 /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		8429CEB7215EBE0B00FC6959 /* iOSDevColorTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSDevColorTableViewUITests.swift; sourceTree = "<group>"; };
 		8429CEB9215EBE0B00FC6959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		8432AADE218D16AD003EF7D6 /* stupid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stupid.xcdatamodel; sourceTree = "<group>"; };
 		84586B63217A86A400A41E94 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 		8429CE96215EBE0400FC6959 /* iOSDevColorTableView */ = {
 			isa = PBXGroup;
 			children = (
+				8432AADD218D16AD003EF7D6 /* iOSDevColorTableView.xcdatamodeld */,
 				8429CE97215EBE0400FC6959 /* AppDelegate.swift */,
 				8429CEC7215EC78800FC6959 /* ColorTableViewCell.swift */,
 				8429CE99215EBE0400FC6959 /* ColorTableViewController.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8432AADF218D16AD003EF7D6 /* iOSDevColorTableView.xcdatamodeld in Sources */,
 				8429CE9A215EBE0400FC6959 /* ColorTableViewController.swift in Sources */,
 				8429CE98215EBE0400FC6959 /* AppDelegate.swift in Sources */,
 				8429CEC8215EC78800FC6959 /* ColorTableViewCell.swift in Sources */,
@@ -586,6 +590,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8432AADD218D16AD003EF7D6 /* iOSDevColorTableView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8432AADE218D16AD003EF7D6 /* stupid.xcdatamodel */,
+			);
+			currentVersion = 8432AADE218D16AD003EF7D6 /* stupid.xcdatamodel */;
+			path = iOSDevColorTableView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8429CE8C215EBE0400FC6959 /* Project object */;
 }
